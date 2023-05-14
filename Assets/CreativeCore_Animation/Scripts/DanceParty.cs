@@ -46,5 +46,10 @@ public class DanceParty : MonoBehaviour
         {
             anim.SetTrigger("Dance_06");
         }
+        
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            anim.SetTrigger("Dance_07");
+        }
     }
 }
